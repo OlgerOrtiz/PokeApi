@@ -1,12 +1,17 @@
-.Pokedex__NavBar {
-    height: 60px;
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
+
+.Body__Error--Text{
+    width: 80%;
+    color: rgb(14, 47, 88);
 }
 
-.NavBar__Logo{
-    width: 50px;
+.bx-arrow-to-left {
+    position: absolute;
+    font-size: 40px;
+    left: .2em;
+    cursor: pointer;
+    color: rgb(14, 47, 88);
+}
+
+.Body__img--Unknown {
+    opacity: .6;
 }
