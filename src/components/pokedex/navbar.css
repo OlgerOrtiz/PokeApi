@@ -9,6 +9,7 @@
     padding-right: 1%;
 }
 
-.NavBar__Logo {
-    height: 50%;
+.NavBar__Logo,
+.NavBar__store {
+    height: 50px;
 }

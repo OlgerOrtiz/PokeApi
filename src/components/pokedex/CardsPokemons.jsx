@@ -20,7 +20,7 @@ const CardsPokemons = ({url}) => {
     return (
             <article className={`CardPokemon__Content Bg__Content--${pokemon?.types[0].type.name}`} onClick={handleClick}>
             <header className={`CardPokemon__Header Bg__Content--${pokemon?.types[0].type.name}`}>
-                <img className='CardPokemon__Header--Image' src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />
+                <img className='CardPokemon__Header--Image' src={pokemon?.sprites.other['official-artwork'].front_default} alt={pokemon?.name} />
             </header>
             <main className='CardPokemon__Body'>
                 <h3 className={`CardPokemon__Name Color--${pokemon?.types[0].type.name}`}>{pokemon?.name}</h3>

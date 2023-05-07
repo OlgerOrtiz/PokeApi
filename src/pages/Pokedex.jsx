@@ -27,8 +27,8 @@ const Pokedex = () => {
             <main className="Pokedex__Content">
 
                 <section className="Pokedex__Header">
-                    <img className='Pokedex__Image' src="./image/pokedex-top.png" alt="" />
-                    <img className="Header__Logo--Text" src="/image/pokedexTitle.svg" alt="" />
+                    <img className='Pokedex__Image' src="./image/pokedex-top.png" alt="pokedex" />
+                    <img className="Header__Logo--Text" src="/image/pokedexTitle.svg" alt="pokedex" />
                     <div className="Bg-Fake--Header"></div>
                 </section>
                 <section className="Pokedex__Content--Body">
@@ -38,7 +38,7 @@ const Pokedex = () => {
                     </section>
                 </section>
                 <section className="Pokedex__Footer">
-                    <img className='Pokedex__Image' src="./image/pokedex-button.png" alt="" />
+                    <img className='Pokedex__Image' src="./image/pokedex-button.png" alt="pokedex" />
                     <div className="Bg-Fake--Footer"></div>
                 </section>
             </main>

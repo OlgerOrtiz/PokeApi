@@ -15,10 +15,10 @@ const HasError = () => {
                 <section className='Pokedex__Body'>
                     <Link to={'/pokedex'}><i className='bx bx-arrow-to-left'></i></Link>
                     <h3 className='Body__Error--Text'>This pokemon is unknown or does not exist.</h3>
-                    <img className='Body__img--Unknown' src="../../image/pokemon-unknown.png" alt="" />
+                    <img className='Body__img--Unknown' src="../../image/pokemon-unknown.png" alt="pokemon unknown" />
                 </section>
                 <section className="Pokedex__Footer">
-                    <img className='Pokedex__Image' src="./image/pokedex-button.png" alt="" />
+                    <img className='Pokedex__Image' src="./image/pokedex-button.png" alt="pokedex img" />
                     <div className="Bg-Fake--Footer"></div>
                 </section>
             </section>

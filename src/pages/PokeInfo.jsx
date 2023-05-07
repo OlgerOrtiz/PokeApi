@@ -85,7 +85,7 @@ const PokeInfo = () => {
                             </section>
                             </section>
                             <section className="Pokedex__Footer">
-                                <img className='Pokedex__Image' src="./image/pokedex-button.png" alt="" />
+                                <img className='Pokedex__Image' src="./image/pokedex-button.png" alt="pokedex" />
                                 <div className="Bg-Fake--Footer"></div>
                             </section>
                         </article>

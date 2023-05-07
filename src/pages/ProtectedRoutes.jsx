@@ -6,16 +6,11 @@ const ProtectedRoutes = () => {
 
     const { trainerName } = useSelector(state => state)
 
-    // const navigate = useNavigate()
-
     if (trainerName.length >= 3) {
         return <Outlet />
     } else {
         return <Navigate to='/' />
     }
-    // useEffect(() => {
-    //     navigate('/')
-    // },[])
 }
 
 export default ProtectedRoutes
