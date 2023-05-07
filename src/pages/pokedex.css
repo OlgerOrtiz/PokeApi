@@ -12,7 +12,7 @@
     text-align: center;
     margin-bottom: 1em;
     margin-top: 1em;
-    width: 90%;
+    width: 100%;
 }
 .Header__Text{
     margin: auto;
@@ -30,9 +30,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
     min-width: 320px;
-    max-width: 1000px;
+    max-width: 990px;
     margin-top: 1em;
     margin: auto;
 }
@@ -58,6 +58,7 @@
 }
 .Pokedex__Content--Body{
     width: 100%;
+    max-width: 940px;
     background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-101399.jpg?w=360&t=st=1683316441~exp=1683317041~hmac=a31da085951ccb28111e9471c9441f29394e2298c62b41660ffa42cf98d33be4);
     background-position: center;
     background-repeat: no-repeat;

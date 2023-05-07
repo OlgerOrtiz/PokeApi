@@ -1,17 +1,14 @@
-
-.Body__Error--Text{
-    width: 80%;
-    color: rgb(14, 47, 88);
+.Pokedex__NavBar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-.bx-arrow-to-left {
-    position: absolute;
-    font-size: 40px;
-    left: .2em;
-    cursor: pointer;
-    color: rgb(14, 47, 88);
-}
-
-.Body__img--Unknown {
-    opacity: .6;
+.NavBar__Logo {
+    height: 50%;
 }
