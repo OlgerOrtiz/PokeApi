@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+/* html {
+  font-family: 'Nunito Sans', sans-serif;
+} */
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Pokemon Solid', sans-serif;
+  letter-spacing: .1em;
+  background-color: lightgray;
+}
+
+body {
+  /* min-height: 100vh; */
+  font-size: 100%;
+  font-smooth: always;
+  -wekit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  /* background-color: lightgray; */
+}
+body::-webkit-scrollbar{
+  width: .5em;
+  background-color: lightgray;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(224, 23, 23);
+  border-radius: 1em;
+}
+
+img,
+picture,
+video,
+iframe,
+figure,
+svg {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center, center;
+  user-select: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+p a {
+  display: inline;
+}
+
+i {
+  display: block;
+  font-size: 20px;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+span{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  hyphens: auto;
+  display: block;
+  color: inherit;
+  appearance: none;
+  outline: none;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+select {
+  font-family: inherit;
+}

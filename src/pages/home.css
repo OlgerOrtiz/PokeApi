@@ -1,0 +1,60 @@
+.Home__Container {
+    background-image: url('../../image/natural-day-002.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Home__PokeLogo--Image {
+    height: 15vh;
+    min-height: 100px;
+}
+
+.Home__Title {
+    width: 90%;
+    color: white;
+    letter-spacing: .1em;
+    font-weight: 100;
+    text-shadow: 3px 0px 3px rgb(255, 0, 0);
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.Home__Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Home__Text {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    letter-spacing: .1em;
+    width: 80%;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 12px;
+    margin-top: 1em;
+}
+
+.Home__AshAndFiends--Image {
+    height:30vh;
+    min-height: 200px;
+}
+
+@media (min-width: 900px) {
+    .Home__Title {
+        font-size: 22px;
+    }
+
+    .Home__Text {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,254 @@
+.CardPokemon__Content {
+    min-width: 250px;
+    width: 280px;
+    border-radius: .5em;
+    overflow: hidden;
+    padding: .5em;
+    background-image: url(https://i.pinimg.com/564x/4e/d6/7a/4ed67ac3a78721288cb7738317767e77.jpg);
+    background-position: center;
+    box-shadow: 0px 0px 10px rgb(151, 149, 149);
+}
+
+.CardPokemon__Header {
+    background-image: url(https://i.pinimg.com/564x/4e/d6/7a/4ed67ac3a78721288cb7738317767e77.jpg);
+    background-position: 20%;
+    background-size: cover;
+    height: 150px;
+    position: relative;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+.CardPokemon__Header--Image {
+    width: 170px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.CardPokemon__Body {
+    padding: 1em 0;
+    padding-top: 20px;
+    background-color: aliceblue;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+    line-height: 1.9em;
+}
+
+.CardPokemon__Name {
+    /* width: 100%; */
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .2em;
+    margin: .5em;
+    color: rgb(110, 108, 112);
+    text-shadow: 1px 1px 3px rgb(114, 109, 119);
+}
+
+.CardPokemon__Types {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin-top: -.5em;
+    margin-bottom: .5em;
+    letter-spacing: .1em;
+    font-size: 15px;
+}
+
+.Type__specific {
+    text-transform: capitalize;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    height: 30px;
+    margin-top: .5em;
+    padding: .5em .8em .8em .8em;
+    border-radius: .3em;
+    background-image: url(https://i.pinimg.com/564x/4e/d6/7a/4ed67ac3a78721288cb7738317767e77.jpg);
+    background-position: center;
+}
+
+.Type__specific:nth-child(2) {
+    position: relative;
+}
+
+.Type__specific:nth-child(2)::before {
+    content: '/ ';
+    color: initial;
+    position: absolute;
+    left: -1.3em;
+}
+
+.CardPokemon__ListStats {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-shadow: 1px 1px 2px rgb(41, 39, 39);
+
+}
+
+.Liststats__Specific {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat__Label {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: .6em;
+}
+
+.stat__Value {
+    font-size: 1em;
+    margin-top: -.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(110, 108, 112);
+    text-shadow: 1px 1px 3px rgb(114, 109, 119);
+}
+
+
+.Type--fighting,
+.Bg__Content--fighting {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-marron_1100-123.jpg?w=360&t=st=1683182909~exp=1683183509~hmac=46e5a4cbd4148e2d6a932ec15210f05d26b3782bbc04f217ee83679a81f80382);
+}
+.Type--flying,
+.Bg__Content--flying {
+    background-image: url(https://r1.ilikewallpaper.net/iphone-wallpapers/download/25542/City-Blue-Day-Gradation-Blur-Background-iphone-wallpaper-ilikewallpaper_com.jpg);
+}
+.Type--poison,
+.Bg__Content--poison{
+    background-image: url(https://img.freepik.com/foto-gratis/luces-neon-degradadas-abstractas_23-2149279140.jpg?w=740&t=st=1683183552~exp=1683184152~hmac=e9328732d8594034024ae09b7030b23deb35640b2beb5f6c2636f5ba0651d1f2);
+}
+.Type--ground,
+.Bg__Content--ground {
+    background-image: url(https://img.freepik.com/foto-gratis/gradiente-marron-abstracto-bien-utilizado-como-fondo-exhibicion-producto_1258-57687.jpg?w=740&t=st=1683185177~exp=1683185777~hmac=92ffdd86499946496c222f3543a1c4d467a0aa8f4a70f0864cc9e4dd3b72831a);
+}
+.Type--rock,
+.Bg__Content--rock {
+    background-image: url(https://img.freepik.com/foto-gratis/diseno-diseno-fondo-pared-marron-liso-abstractotudioroomplantilla-webinforme-negocios-color-degradado-circulo-suave_1258-102211.jpg?w=360&t=st=1683184481~exp=1683185081~hmac=10e88b9b93d599df3193d4562ba6eee1fd5384b643834fb79689ba0f168563f2);
+}
+.Type--bug,
+.Bg__Content--bug {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-degradado-tonos-verdes_23-2148388109.jpg?w=740&t=st=1683185680~exp=1683186280~hmac=c79e67602359747fee48e6cd614270f460be1291d85462118613c5c9f78df280);
+}
+.Type--ghost,
+.Bg__Content--ghost {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-colorido-borroso-vivo_58702-2642.jpg?w=740&t=st=1683186057~exp=1683186657~hmac=d740247f58ed1cb026775bebe535af624382e0d1f2f664dfd0bb6de894a05f12);
+}
+.Type--steel,
+.Bg__Content--steel {
+    background-image: url(https://img.freepik.com/foto-gratis/gradiente-gris-negro-falta-definicion-llanura-lujo-abstracta-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-63616.jpg?w=996&t=st=1683186229~exp=1683186829~hmac=cff783b800c98c640eb09c0e3a92fb69bedbfbc4739f5888021216c85c3576c8);
+}
+.Type--fire,
+.Bg__Content--fire {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-colorido-borroso-vivo_58702-2517.jpg?w=740&t=st=1683190426~exp=1683191026~hmac=923b1e28c2f7b41992743e066a7d9d8ef0538fa81dee9b9ef956e86a518b0f00);
+}
+.Type--water,
+.Bg__Content--water {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-papel-tapiz-colorido-borroso-vivo_58702-3985.jpg?w=740&t=st=1683187006~exp=1683187606~hmac=391b5bea91798ad8ca48a8fe10f7039da28306aa5d85b4de6fed2049397954df);
+}
+.Type--grass,
+.Bg__Content--grass {
+    background-image: url(https://img.freepik.com/vector-gratis/gradiente-fondo-tonos-verdes_23-2148360340.jpg?w=740&t=st=1683137560~exp=1683138160~hmac=3424c911453cd9025c8ce5e49d6d0c2849f1f28bcb6d0064b71b7a0d0157d44c);
+}
+.Type--electric,
+.Bg__Content--electric {
+    background-image: url(https://img.freepik.com/vector-premium/diseno-vector-fondo-estilo-punto-explosion-rayo-degradado-naranja_116849-115.jpg?w=740);
+}
+.Type--psychic,
+.Bg__Content--psychic {
+    background-image: url(https://img.freepik.com/fotos-premium/plantilla-purpura-degradado-fondo_127755-1788.jpg?w=740);
+}
+.Type--ice,
+.Bg__Content--ice {
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-108739.jpg?w=740);
+}
+.Type--dragon,
+.Bg__Content--dragon {
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-color-azul-brillante-borroso_251819-2433.jpg?w=996);
+}
+.Type--dark,
+.Bg__Content--dark {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-degradado-oscuro-espacio-copia_53876-99548.jpg?w=740&t=st=1683188981~exp=1683189581~hmac=67d085b3e4917ef22b87f398370a6223179bf6ce83bc0ba8210b34a71f4ea1f9) !important;
+}
+.Type--fairy,
+.Bg__Content--fairy {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-borroso-colores-suaves_58702-1545.jpg?w=740&t=st=1683189300~exp=1683189900~hmac=973d8000b570ce7c8d9f70ed99946c70907b368b7610ebb75afb96e2c980203d);
+}
+
+
+.Color--fighting{
+    color: rgb(165, 87, 42);
+    text-shadow: 1px 1px 3px rgb(216, 132, 84);
+}
+.Color--flying{
+    color: rgb(159, 201, 187);
+    text-shadow: 1px 1px 3px rgb(198, 236, 224);
+}
+.Color--poison{
+    color: rgb(173, 43, 173);
+    text-shadow: 1px 1px 3px rgb(201, 71, 201);
+}
+.Color--ground{
+    color: rgb(177, 132, 76);
+    text-shadow: 1px 1px 3px rgb(204, 157, 99);
+}
+.Color--rock{
+    color: rgb(66, 36, 0);
+    text-shadow: 1px 1px 3px rgb(99, 58, 9);
+}
+.Color--bug {
+    color: rgb(64, 167, 64);
+    text-shadow: 1px 1px 3px rgb(100, 194, 82);
+}
+.Color--ghost {
+    color: rgb(92, 58, 136);
+    text-shadow: 1px 1px 3px rgb(133, 96, 180);
+}
+.Color--steel {
+    color: rgb(173, 168, 179);
+    text-shadow: 1px 1px 3px rgb(114, 109, 119);
+}
+.Color--fire {
+    color: rgb(194, 35, 35);
+    text-shadow: 1px 1px 3px rgb(211, 48, 48);
+}
+.Color--water {
+    color: rgb(28, 64, 223);
+    text-shadow: 1px 1px 3px rgb(66, 95, 224);
+}
+.Color--grass {
+    color: rgb(22, 124, 22);
+    text-shadow: 1px 1px 3px rgb(74, 151, 74);
+}
+.Color--electric {
+    color: rgb(204, 163, 28);
+    text-shadow: 1px 1px 3px rgb(238, 205, 96);
+}
+.Color--psychic {
+    color: rgb(200, 136, 219);
+    text-shadow: 1px 1px 3px rgb(215, 168, 230);
+}
+.Color--ice {
+    color: rgb(136, 200, 219);
+    text-shadow: 1px 1px 3px rgb(171, 214, 228);
+}
+.Color--dragon {
+    color: rgb(45, 162, 197);
+    text-shadow: 1px 1px 3px rgb(101, 196, 224);
+}
+.Color--dark {
+    color: rgb(34, 21, 88);
+    text-shadow: 1px 1px 3px rgb(55, 42, 110);
+}
+.Color--fairy {
+    color: rgb(228, 122, 222);
+    text-shadow: 1px 1px 3px rgb(241, 151, 237);
+}

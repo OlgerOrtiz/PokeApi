@@ -1,0 +1,12 @@
+.Pokedex__NavBar {
+    height: 60px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.NavBar__Logo{
+    width: 50px;
+}

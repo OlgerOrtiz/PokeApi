@@ -1,0 +1,33 @@
+.FormNameUser__Input {
+    height: 30px;
+    border-radius: 1em;
+    text-align: center;
+    opacity: .5;
+    margin-top: 1em;
+}
+
+.FormNameUser__Btn {
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 0px 2px rgb(255, 0, 0);
+    letter-spacing: .2em;
+    padding-bottom: .3em;
+    height: 20px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.FormNameUser__Btn:hover {
+    filter: drop-shadow(0px 0px 10px rgb(255, 0, 0));
+}
+
+@media (min-width: 900px) {
+    .FormNameUser__Input {
+        padding-bottom: .5em;
+    }
+
+    .FormNameUser__Btn {
+        margin-top: 0;
+    }
+
+}

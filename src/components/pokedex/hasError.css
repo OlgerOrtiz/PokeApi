@@ -1,0 +1,17 @@
+
+.Body__Error--Text{
+    width: 80%;
+    color: rgb(14, 47, 88);
+}
+
+.bx-arrow-to-left {
+    position: absolute;
+    font-size: 40px;
+    left: .2em;
+    cursor: pointer;
+    color: rgb(14, 47, 88);
+}
+
+.Body__img--Unknown {
+    opacity: .6;
+}

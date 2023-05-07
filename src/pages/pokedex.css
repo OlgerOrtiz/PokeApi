@@ -1,0 +1,106 @@
+.Container__Pokedex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Pokedex__Content--Header{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    width: 90%;
+}
+.Header__Text{
+    margin: auto;
+    width: 100%;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.Header__Name{
+    font-weight: 100;
+    color: rgb(224, 23, 23);
+    text-shadow: 0px 0px 5px rgb(114, 28, 28);
+}
+
+.Pokedex__Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    min-width: 320px;
+    max-width: 1000px;
+    margin-top: 1em;
+    margin: auto;
+}
+
+.Pokedex__Header,
+.Pokedex__Footer{
+    position: relative;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+}
+.Header__Logo--Text{
+    position: absolute;
+    top: 10%;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.Pokedex__Image{
+    z-index: 9;
+}
+.Pokedex__Content--Body{
+    width: 100%;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-101399.jpg?w=360&t=st=1683316441~exp=1683317041~hmac=a31da085951ccb28111e9471c9441f29394e2298c62b41660ffa42cf98d33be4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 15px white;
+}
+
+.Pokedex__Body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    width:100%;
+    min-width: 320px;
+    max-width: 940px;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+}
+
+.Bg-Fake--Header{
+    position: absolute;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-101399.jpg?w=360&t=st=1683316441~exp=1683317041~hmac=a31da085951ccb28111e9471c9441f29394e2298c62b41660ffa42cf98d33be4);
+    background-position: top;
+    background-size: cover;
+    bottom: 0;
+    width: 40%;
+    height: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 8;
+    box-shadow: inset 0px 0px 40px white;
+}
+.Bg-Fake--Footer{
+    position: absolute;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-101399.jpg?w=360&t=st=1683316441~exp=1683317041~hmac=a31da085951ccb28111e9471c9441f29394e2298c62b41660ffa42cf98d33be4);
+    background-position: bottom;
+    background-size: cover;
+    top: 0;
+    width: 40%;
+    height: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 8;
+    box-shadow: inset 0px 0px 40px white;
+}

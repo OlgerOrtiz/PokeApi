@@ -1,0 +1,120 @@
+.PokeInfo__Container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(14, 47, 88);
+}
+
+.PokeInfo__Header {
+    width: 100%;
+    position: relative;
+}
+
+.Header--Icon{
+position: absolute;
+font-size: 40px;
+left: -.3em;
+cursor: pointer;
+}
+
+.Header__Img {
+    width: 70%;
+    margin: auto;
+}
+
+.PokeInfo__Body {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+}
+
+.Name__Pokemon,
+h4 {
+    letter-spacing: .1em;
+    color: azure;
+    text-shadow: 0px 0px 3px rgb(29, 153, 235);
+    border-bottom: 1px solid;
+    text-transform: capitalize;
+}
+
+.Position__Id {
+    color: lightgray;
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px rgb(168, 166, 166);
+    font-size: 15px;
+}
+
+.PokeInfo__Body--Caracteristic,
+.PokeInfo__Body--Types,
+.PokeInfo__Body--Abilities,
+.PokeInfo__Body--Moves {
+    width: 95%;
+    max-width: max-content;
+    background-color: rgba(29, 153, 235, 0.521);
+    padding: .8em 1em .7em 1em;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: inset 0px 0px 100px rgba(255, 255, 255, 0.507),
+        0px 0px 20px rgba(196, 192, 192, 0.281);
+}
+
+.PokeInfo__List--Types,
+.PokeInfo__List--Abilities,
+.PokeInfo__List--Moves {
+    width: 100%;
+    /* min-width: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: .1em;
+    gap: .5em;
+    margin: auto;
+}
+
+.Types,
+.Abilities,
+.Moves {
+    background-color: rgba(165, 207, 235, 0.747);
+    text-transform: capitalize;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: .5em;
+    padding: .5em .8em .8em .8em;
+    border-radius: .3em;
+    box-shadow: inset 0px 0px 30px rgba(255, 254, 254, 0.164);
+
+}
+
+.List__Carateristic {
+    width: 80%;
+    max-width: 400px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Caracteristic {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.Caracteristic__Key {
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+}
+
+@media (min-width: 700px) {
+    .PokeInfo__Body--Caracteristic,
+    .PokeInfo__Body--Types,
+    .PokeInfo__Body--Abilities{
+        max-width: 500px;
+    }
+
+}
