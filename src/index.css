@@ -15,11 +15,10 @@ html {
   scroll-behavior: smooth;
   font-family: 'Pokemon Solid', sans-serif;
   letter-spacing: .1em;
-  background-color: lightgray;
 }
 
 body {
-  /* min-height: 100vh; */
+  height: 100vh;
   font-size: 100%;
   font-smooth: always;
   -wekit-font-smoothing: antialiased;
